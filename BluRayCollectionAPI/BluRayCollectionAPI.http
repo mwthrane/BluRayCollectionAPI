@@ -1,10 +1,21 @@
-@BluRayCollectionAPI_HostAddress = http://localhost:5195
+@BluRayCollectionAPI_HostAddress = http://localhost:55343
 
-GET {{BluRayCollectionAPI_HostAddress}}/weatherforecast/
-Accept: application/json
 
 ###
 
-GET {{BluRayCollectionAPI_HostAddress}}/weatherforecast
+GET {{BluRayCollectionAPI_HostAddress}}/api/bluray
+
+###
+
+PUT {{BluRayCollectionAPI_HostAddress}}/api/bluray/{id:length(24)}?id=string
+Content-Type: application/json
+
+{
+  //Blurays
+}
+
+###
+
+GET {{BluRayCollectionAPI_HostAddress}}/api/bluray/{id:length(24)}?id=string
 
 ###

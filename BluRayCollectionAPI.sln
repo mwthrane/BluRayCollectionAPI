@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluRayCollectionAPI", "BluRayCollectionAPI\BluRayCollectionAPI.csproj", "{46E285D1-DD5C-45E2-B74C-F803FB64D92D}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5E838215-185F-4F56-B0C9-52B4E862DCBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{46E285D1-DD5C-45E2-B74C-F803FB64D92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E285D1-DD5C-45E2-B74C-F803FB64D92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E285D1-DD5C-45E2-B74C-F803FB64D92D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E838215-185F-4F56-B0C9-52B4E862DCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E838215-185F-4F56-B0C9-52B4E862DCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E838215-185F-4F56-B0C9-52B4E862DCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E838215-185F-4F56-B0C9-52B4E862DCBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

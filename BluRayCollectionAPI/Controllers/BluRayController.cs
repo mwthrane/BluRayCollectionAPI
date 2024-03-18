@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BluRayCollectionAPI.Models;
 using BluRayCollectionAPI.Services;
-using System.Collections.Generic;
 
 namespace BluRayCollectionAPI.Controllers;
 [ApiController]
