@@ -6,6 +6,7 @@ services:
     ports:
       - "55343:8080"
       - "55344:8081"
+      - "5195:5195"
     build:
       context: .
       dockerfile: BluRayCollectionAPI/Dockerfile
