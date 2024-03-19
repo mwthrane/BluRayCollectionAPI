@@ -6,4 +6,4 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<DatabaseSettings>(
        builder.Configuration.GetSection(nameof(DatabaseSettings)));
 
-builder.Services.AddSingleton<BluRayService>();
+builder.Services.AddSingleton<BluRayService>(); 
